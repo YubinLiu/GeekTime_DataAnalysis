@@ -8,7 +8,7 @@ Classification And Regression Tree：分类回归树。
 #### CART 分类树
 * 属性选择指标：基尼系数。
   * 基尼系数：反应了样本的不确定度。越小，样本之间差异性小，不确定程度低。
-  * t 为节点，p(Ck|t) 表示节点 t 属于 Ck 的概率。
+  * t 为节点，p(Ck|t) 表示节点 t 属于 Ck 的概率。\
   ![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/基尼系数_公式.png)
   * 例
   ![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/基尼系数_例.jpg)
@@ -24,7 +24,7 @@ Classification And Regression Tree：分类回归树。
 
 #### CART 决策树的剪枝
 * CCP(cost-complexity prune)，代价复杂度，一种后剪枝的方法，用到的指标是：节点的表面误差率增益值。\
-  ![](../img/CCP_误差指标.png)
+  ![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/CCP_误差指标.png)
   * Tt：以 t 为根节点的子树
   * C(Tt)：节点 t 的子树没被剪时子树 Tt 的误差
   * C(t)：节点 t 的子树被剪枝后节点 t 的误差
