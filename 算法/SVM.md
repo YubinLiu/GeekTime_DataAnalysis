@@ -4,22 +4,22 @@
 
 #### SVM 工作原理
 * 例：将二维平面转为三维空间，分割曲线变为平面，该平面称为超平面。\
-![](https://github.com/YubinLiu/GeekTime_DataAnalysis/tree/master/img/二维平面曲线分割.jpg)
-![](https://github.com/YubinLiu/GeekTime_DataAnalysis/tree/master/img/三维空间平面分割.jpg)
+![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/二维平面曲线分割.jpg)
+![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/三维空间平面分割.jpg)
 * SVM 计算的过程是帮我们找到超平面的过程，超平面即为 SVM 分类器。
 
 #### 分类间隔
 * 找到两个极限位置，决策面 A 和 B，即越过该位置就会产生分类错误。
 * 极限位置到最优决策面 C 的距离，为分类间隔，margin。
 * 拥有最大间隔（max margin）的决策面就是 SVM 要找的最优解。\
-![](https://github.com/YubinLiu/GeekTime_DataAnalysis/tree/master/img/最大间隔.jpg)
+![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/最大间隔.jpg)
 
 #### 点到超平面的距离公式
 * 超平面的数学表达式 \
-![](https://github.com/YubinLiu/GeekTime_DataAnalysis/tree/master/img/平面数学表达式.png)
+![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/平面数学表达式.png)
   * w 是法向量（垂直于平面的直线所表示的向量，决定超平面的方向），x 是函数变量。
 * di 代表点到超平面 wxi + b = 0 的欧氏距离，求 di 最小值。\
-![](https://github.com/YubinLiu/GeekTime_DataAnalysis/tree/master/img/欧氏距离.png)
+![](https://github.com/YubinLiu/GeekTime_DataAnalysis/blob/master/img/欧氏距离.png)
   * ||w|| 为超平面的范数
 
 #### 最大间隔的优化模型
